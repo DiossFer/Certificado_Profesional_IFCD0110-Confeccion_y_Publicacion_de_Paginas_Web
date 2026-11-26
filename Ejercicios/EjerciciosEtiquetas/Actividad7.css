@@ -1,0 +1,31 @@
+#hr1{
+
+}
+#hr2{
+    height: 5px;
+    width: 50%;
+}
+#hr3{
+    height: 25px;
+    width: 50px;
+}
+#hr4{
+    height: 10px;
+    width: 75%;
+
+    background-color: blue;
+
+    margin-right: auto;
+    margin-left: 0;
+}
+#hr5{
+    height: 50px;
+    width: 60%;
+
+    background-color: red;
+
+    margin-right: 0;
+    margin-left: auto;
+    border: 10px solid green;
+
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Actividad Formularios 1">
+
+    <meta name="description" content="Fernando de Dios Ortega Castro">
+
+    <title>Actividad_Formularios_1</title>
+
+    <link rel="stylesheet" href="Act_1.css">
+
+</head>
+
+<body>
+    <form id="Formulario_1" name="Formulario_1" method="post" action="#">
+        <h2>Formulario Actividad 1</h2><br>
+    
+        <fieldset>
+            <legend><strong>Rellenar</strong></legend>
+            
+            <div id="idioma">
+                <input type="radio" name="idioma" value="idiomaingles">Inglés<br>
+                <input type="radio" name="idioma" value="idiomaaleman" >Aleman<br>
+                <input type="radio" name="idioma" value="idiomafrances" >Francés<br>
+            </div>
+
+            <br>
+
+            <select id="conector" name="conector">
+                <option value="usb">USB</option>
+                <option value="paralelo">Paralelo</option>
+                <option value="ps2">PS2</option>
+            </select>
+
+            <br><br>
+
+            <label for="nombre">Nombre<br><input type="text" name="nombre"></label><br><br>
+
+            <label for="apellidos">Apellidos<br><input type="text" name="apellidos"></label><br><br>
+
+        </fieldset>
+
+        <br>
+        <br>
+    
+        <fieldset>
+
+            <legend><strong>Indique sus preferencias por favor</strong></legend>
+
+
+            <select name="sexo" id="sexo_multiple" multiple="multiple" size="4">
+
+                <option value="hombre">Hombre</option>
+                
+                <option value="mujer">Mujer</option>
+
+            </select>
+
+            <br>
+            <br>
+
+            <div id="sexo_check">
+
+                <input type="checkbox" name="sexo_check" id="sexo_1" value="sexohombre">&nbsp;Hombre<br>
+
+                <input type="checkbox" name="sexo_check" id="sexo_2" value="sexomujer">&nbsp;Mujer<br>
+
+            </div>
+
+            <br>
+
+            <label for="fecha">Elija una fecha:&nbsp;<br><input type="date" name="fecha"></label>
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

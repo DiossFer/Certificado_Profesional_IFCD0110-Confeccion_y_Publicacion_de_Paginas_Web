@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor_padre {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 20px;
+    margin: 30px;
+    margin-bottom: 60px;
+}
+
+.caja {
+    width: 100px;
+    height: 50px;
+
+    background-color: #ccc;
+    color: black;
+
+    border: 1px solid #000; 
+}
+
+#A {
+    box-shadow: -3px -3px #000;
+}
+
+#B {
+    box-shadow: -3px -3px 5px #000;
+}
+
+#C {
+    box-shadow: -3px -3px 0px 3px #000;
+}
+
+#D {
+    box-shadow: -3px -3px 5px 2px #000;
+}
+
+#E {
+    box-shadow: 0px 0px 3px 1px #000;
+}
+
+#F {
+    box-shadow: 0px 0px 3px 2px #000;
+}
+
+#G {
+    box-shadow: 3px 3px #000;
+}
+
+#H {
+    box-shadow: 3px 3px 5px #000;
+}
+
+#I {
+    box-shadow: 3px 3px 0px 3px #000;
+}
+
+#J {
+    box-shadow: 3px 3px 5px 2px #000;
+}
+
+#K {
+    box-shadow: 0px 0px 3px 1px #000;
+}
+
+#L {
+    box-shadow: 0px 0px 3px 2px #000;
+}

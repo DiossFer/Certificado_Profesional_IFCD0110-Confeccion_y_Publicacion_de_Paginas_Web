@@ -1,0 +1,33 @@
+#contenedor{
+    width: 100%;
+    max-width: 600px;
+
+    border-top: dashed 1px blue;
+    border-bottom: dashed 1px green;
+    border-left: dashed 1px orange;
+    border-right: dashed 1px red;
+
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    margin: auto;
+
+}
+#contenedor p{
+    width: 30%;
+    max-width: 300px;
+
+    padding: 25px 10px;
+
+    border: 2px solid red;
+}
+
+.primero{
+    margin: auto;
+}
+
+.segundo{
+    text-align: center;
+}

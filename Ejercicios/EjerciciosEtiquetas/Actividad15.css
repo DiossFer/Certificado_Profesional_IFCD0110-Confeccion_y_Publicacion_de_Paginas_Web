@@ -1,0 +1,22 @@
+main{
+    background-image: url(https://e7.pngegg.com/pngimages/791/417/png-clipart-red-sample-text-digital-watermarking-watercolor-watermark-miscellaneous-text.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+h1{
+    color:rgb(114, 150, 147);
+    padding-left: 0.5%;
+}
+h2{
+    color:rgb(114, 150, 147);
+    padding-left: 2%;
+}
+h3{
+    color:rgb(112, 140, 165);
+    padding-left: 3%;
+}
+p{
+    padding-left: 0.5%;
+}

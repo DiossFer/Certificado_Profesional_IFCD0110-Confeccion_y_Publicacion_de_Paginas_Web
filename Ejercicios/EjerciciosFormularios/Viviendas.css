@@ -1,0 +1,343 @@
+/* CSS para el formulario de viviendas */
+
+
+/* Importamos la fuente usada */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+
+/* Variables */
+:root {
+    --bg-gradient: linear-gradient(135deg, #e8f0eb 0%, #d8e6dc 50%, #e2ede5 100%);
+    --card-bg: rgba(255, 255, 255, 0.94);
+    --primary: #3d6e50;
+    --primary-hover: #2f573e;
+    --primary-focus: rgba(61, 110, 80, 0.2);
+    --text-main: #2b3a30;
+    --border-color: #c4d6cb;
+    --border-focus: #3d6e50;
+    --shadow-md: 0 10px 30px rgba(43, 58, 48, 0.08);
+    --radius-sm: 8px;
+    --radius-lg: 20px;
+    --transition: all 0.25s ease;
+}
+
+
+/* Fijamos el tamaño al grosor */
+body > form > *{
+    box-sizing: border-box;
+}
+
+
+body {
+    /*Fuente*/
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+    /*Color del fondo*/
+    background: var(--bg-gradient);
+
+    /*Fondo fijo*/
+    background-attachment: fixed;
+
+    color: var(--text-main);
+
+    /* Mnimo de altura (1vh equivale a 1% del tamaño de la pantalla) */
+    min-height: 100vh;
+
+    /* Margenes a 0 */
+    margin: 0;
+
+    /* Pading con respecto al contenido de la pagina */
+    padding: 40px 20px;
+
+    /* Centramos y alineamos */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+/* Fijamos tamaño del body y del form */
+body, form {
+    max-width: 650px;
+    width: 100%;
+}
+
+
+form {
+    /* Color de fondo del form */
+    background: var(--card-bg);
+
+    /* Pading con respecto al contenido del form */
+    padding: 40px;
+
+    /* Radio del borde */
+    border-radius: var(--radius-lg);
+
+    /* Sombra de la caja */
+    box-shadow: var(--shadow-md);
+
+    /* 1 pixel de borde gris y de tipo solido */
+    border: 1px solid rgba(255, 255, 255, 0.8);
+
+    /* Margenes a 0 */
+    margin: 0 auto;
+
+    /* Fijamos */
+    display: block;
+
+}
+
+
+h1 {
+    /* Fijamos el tamaño de la letra con respecto a la por defecto del cliente */
+    font-size: 1.8rem;
+    
+    /* Definimos grosor de letra */
+    font-weight: 700;
+    
+    /* Color de letra */
+    color: var(--primary);
+    
+    /* Margen superior a 0 */
+    margin-top: 0;
+    
+    /* Margen inferior a 24 pixeles */
+    margin-bottom: 24px;
+    
+    /* Borde de abajo 2 pixeles de grosor y el color de la variable */
+    border-bottom: 2px solid var(--border-color);
+    
+    /* Pading con respecto al margen de 10 pixeles */
+    padding-bottom: 10px;
+}
+
+
+/* Formato para los label */
+label {
+
+    /* Grosor del texto */
+    font-weight: 600;
+    
+    /* Tamaño del texto */
+    font-size: 0.95rem;
+    
+    /* Color del texto con la variable de color principal */
+    color: var(--text-main);
+    
+    /* Fija el texto */
+    display: inline-block;
+    
+    /* Margen hacia abajo de 6 px */
+    margin-bottom: 6px;
+
+}
+
+
+/* Estilos para Inputs de | date | */
+input[type="date"] {
+
+    /* Tamaño del texto */
+    font-size: 1rem;
+    
+    /* Padding */
+    padding: 6px 8px;
+    
+    /* Borde de 1 px color de la variable */
+    border: 1px solid var(--border-color);
+    
+    /* Radio del cuadro de fecha */
+    border-radius: 8px;
+    
+    /* Transcicion para mostrar el cuadro de fecha */
+    transition: var(--transition);
+}
+
+
+/* Estilos para Inputs de | text | number | select | textarea | */
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    /*  */
+    display: block;
+    
+    /* Anchura */
+    width: 100% !important; /* !important ==> Le da prioridad sobre otros atributos del css  */
+    
+    /*  */
+    max-width: 100%;
+    
+    /*  */
+    padding: 12px 14px;
+    
+    /*  */
+    font-family: inherit;
+    
+    /*  */
+    font-size: 0.95rem;
+    
+    /*  */
+    color: var(--text-main);
+    
+    /*  */
+    background-color: #ffffff;
+    
+    /*  */
+    border: 1.5px solid var(--border-color);
+    
+    /*  */
+    border-radius: var(--radius-sm);
+    
+    /*  */
+    transition: var(--transition);
+    
+    /*  */
+    outline: none;
+
+    /*  */
+    margin-bottom: 4px;
+}
+
+
+/* Estilos para Inputs de | radio | checkbox | */
+input[type="radio"],
+input[type="checkbox"] {
+    
+    /*  */
+    display: inline-block;
+    
+    /*  */
+    width: auto !important;
+    
+    /*  */
+    margin-right: 6px;
+    
+    /*  */
+    margin-left: 2px;
+    
+    /*  */
+    accent-color: var(--primary); 
+    
+    /*  */
+    transform: scale(1.15);
+    
+    /*  */
+    cursor: pointer;
+    
+}
+
+
+/* Estilos para las etiquetas de Inputs | radio | checkbox | */
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    
+    /*  */
+    display: inline-block;
+    
+    /*  */
+    font-weight: 500;
+    
+    /*  */
+    cursor: pointer;
+    
+    /*  */
+    margin-right: 15px;
+    
+}
+
+
+/* Estilos para Inputs de | text | number | cuando se le aplica el foco*/
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+
+    /*  */
+    border-color: var(--border-focus);
+
+    /*  */
+    box-shadow: 0 0 0 3px var(--primary-focus);
+
+}
+
+/* Estilo para el select*/
+select {
+
+    /*  */
+    cursor: pointer;
+
+    /*  */
+    background-color: #fff;
+
+}
+
+/* Estilo para el textarea*/
+textarea {
+
+    /*  */
+    resize: vertical;
+
+    /*  */
+    min-height: 100px;
+
+}
+
+
+/* Estilo para el boton de submit */
+input[type="submit"] {
+    
+    /*  */
+    display: block;
+    
+    /*  */
+    width: 100% !important;
+    
+    /*  */
+    background-color: var(--primary);
+    
+    /*  */
+    color: #ffffff;
+    
+    /*  */
+    font-family: inherit;
+    
+    /*  */
+    font-size: 1rem;
+    
+    /*  */
+    font-weight: 600;
+    
+    /*  */
+    border: none;
+    
+    /*  */
+    border-radius: var(--radius-sm);
+    
+    /*  */
+    padding: 14px;
+    
+    /*  */
+    margin-top: 15px;
+    
+    /*  */
+    cursor: pointer;
+    
+    /*  */
+    transition: var(--transition);
+    
+    /*  */
+    box-shadow: 0 4px 12px rgba(61, 110, 80, 0.2);
+
+}
+
+/* Estilo para el boton de submit cuando se posiciona el cursor sobre el */
+input[type="submit"]:hover {
+
+    /* Cambiamos su color */
+    background-color: var(--primary-hover);
+
+    /* Lo elevamos un pixel */
+    transform: translateY(-1px);
+
+}

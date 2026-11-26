@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Actividad Formularios 4">
+
+    <meta name="description" content="Fernando de Dios Ortega Castro">
+
+    <title>Actividad_Formularios_4</title>
+
+    <link rel="stylesheet" href="Act_4.css">
+
+</head>
+
+<body>
+    <form id="Formulario_4" name="Formulario_4" method="post" action="#">
+        <h2>Formulario Actividad 4</h2><br>
+    
+        <fieldset>
+
+            <legend><strong>Completar</strong></legend><br>
+
+            
+            <div id="materias">
+                <input type="radio" name="asignatura" value="asignaturamalengua">Lengua <br>
+                <input type="radio" name="asignatura" value="asignaturamatematicas" >Matemáticas <br>
+                <input type="radio" name="asignatura" value="asignaturamatehistoria" >Historia <br>
+                <input type="radio" name="asignatura" value="asignaturageografia" >Geografía <br>
+            </div>
+
+            <br>
+
+            <div id="editor">
+                <input type="checkbox" name="editor" id="editornotepad" value="editornotepad">&nbsp;Notepad
+                <input type="checkbox" name="editor" id="editoremacs" value="editoremacs">&nbsp;Emacs
+                <input type="checkbox" name="editor" id="editorotro" value="editorotro">&nbsp;Otro
+
+            </div>
+
+
+            <br>
+
+            <textarea rows="5" cols="59" placeholder="Utilice este cuadro para escribir"></textarea>   
+
+            <br><br>
+
+            <select id="procesador" name="procesador">
+                <option value="amd">AMD</option>
+                <option value="intel_i5">Intel i5</option>
+                <option value="intel_i7">Intel i7</option>
+            </select>
+
+            <br><br>
+
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

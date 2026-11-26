@@ -1,0 +1,30 @@
+mark{
+    background-color: #ffeb3b; /* amarillo */
+    color: black;
+}
+#p1{
+    color: blue;
+    font-style: normal;
+}
+
+h2.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee__track {
+  display: flex;
+  width: 100%;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee__track span {
+  padding-right: 100%;
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+

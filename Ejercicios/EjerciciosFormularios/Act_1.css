@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+
+form {
+    box-sizing: border-box;
+
+    width: 25%;
+
+    color: white;
+
+    background-color: darkslategrey;
+
+    padding: 20px 40px 40px 80px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(43, 58, 48, 0.08);
+
+    border: 1px solid darkslategrey;
+
+    margin: 0;
+
+    display: inline-block;
+
+}
+
+fieldset{
+    
+    width: fit-content;
+    border: 3px solid #333;
+    padding: 1%;
+}
+
+input{
+    background-color: gray;
+    color: white;
+}
+
+option{
+    background-color: gray;
+    color: white;
+}
+
+select{
+    background-color: gray;
+    color: white;
+}
+
+

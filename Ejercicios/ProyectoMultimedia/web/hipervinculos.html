@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Fernando de Dios Ortega Castro">
+
+    <meta name="description" content="Actividad sobre los diferentes tipos de hipervínculos HTML">
+
+    <title>Hipervínculos FOC</title>
+
+    <link rel="stylesheet" href="../style/style.css">
+
+    <link rel="stylesheet" href="../style/multimedia.css">
+
+    <link rel="stylesheet" href="../style/hipervinculos.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../multimedia/icono.png">
+
+</head>
+
+
+<body>
+
+    <!-- Cabecera -->
+    <header id="inicio">
+
+        <h1>Formatos Multimedia</h1>
+
+        <nav>
+            <a href="../index.html" class="inicio">Inicio</a>
+            <a href="../web/audios.html" class="audio">Audio</a>
+            <a href="../web/imagenes.html" class="imagen">Imagen</a>
+            <a href="../web/videos.html" class="video">Vídeo</a>
+            <a href="../web/hipervinculos.html" class="enlaces">Hipervínculos</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Presentación -->
+        <section class="presentacion">
+            <h2>Hipervínculos</h2>
+            <p>Los hipervínculos son elementos fundamentales de las páginas web, ya que permiten conectar documentos, acceder a otras páginas y facilitar la comunicación entre usuarios. Mediante ellos podemos navegar por una web, descargar archivos o contactar directamente con otras personas.</p>
+            <p>A continuación, algunos ejemplos de cómo utilizarlos en HTML.</p>
+        </section>
+
+
+        <!-- Enlaces de ejemplo -->
+        <section class="seccion-hipervinculos">
+
+            <h2>Principales tipos de hipervínculos</h2>
+
+            <div class="contenedor-hipervinculos">
+
+                <!-- 1. Enlace interno a otro archivo -->
+                <div class="tarjeta tarjeta_1">
+
+                    <h3>1. Enlace interno a otro archivo</h3>
+
+                    <p>Este tipo de enlace permite acceder a otro documento que se encuentra dentro de nuestro propio proyecto y usaremos el atributo target="_blank" para que esto se haga en una nueva pestaña.</p>
+
+                    <a href="imagenes.html" target="_blank" rel="noopener noreferrer">
+                        Abrir la página de imágenes
+                    </a>
+
+                </div>
+
+
+                <!-- 2. Enlace a una sección del mismo HTML -->
+                <div class="tarjeta tarjeta_2">
+
+                    <h3>2. Enlace a una sección del mismo HTML</h3>
+
+                    <p>Permite desplazarnos directamente a una parte concreta de la página sin tener que buscarla manualmente. Para ello, asignamos un identificador mediante id y lo utilizamos en el enlace.</p>
+
+                    <a href="#footer">
+                        Ir al footer
+                    </a>
+
+
+                </div>
+
+
+                <!-- 3. Enlace externo -->
+                <div class="tarjeta tarjeta_3">
+
+                    <h3>3. Enlace externo a una página web</h3>
+
+                    <p>Permite visitar una página que se encuentra fuera de nuestro proyecto. En este caso, el enlace se abre en la misma pestaña en la que estamos navegando.</p>
+
+                    <a href="https://www.wikipedia.org/">
+                        Visitar Wikipedia
+                    </a>
+
+                </div>
+
+
+                <!-- 4. Enlace a un archivo descargable -->
+                <div class="tarjeta tarjeta_4">
+
+                    <h3>4. Enlace a un archivo multimedia descargable</h3>
+
+                    <p>También podemos asiganr enlaces para la descarga de determinados archivos. El atributo download indica al navegador que debe intentar descargar el archivo en lugar de abrirlo.</p>
+
+                    <a href="../multimedia/audio/sample-1.mp3" download>
+                        Descargar archivo de audio MP3
+                    </a>
+
+                </div>
+
+
+                <!-- 5. Enlace a un correo electrónico -->
+                <div class="tarjeta tarjeta_1">
+
+                    <h3>5. Enlace a un correo electrónico</h3>
+
+                    <p>Mediante el protocolo "mailto", podemos crear un enlace que abre el programa de correo electrónico del usuario y prepara un nuevo mensaje dirigido a una dirección determinada.</p>
+
+                    <a href="mailto:ejemplo@correo.com">
+                        Enviar un correo electrónico
+                    </a>
+
+                </div>
+
+
+                <!-- 6. Enlace a un teléfono -->
+                <div class="tarjeta tarjeta_2">
+
+                    <h3>6. Enlace a un teléfono</h3>
+
+                    <p>El protocolo "tel", permite crear un enlace que, al pulsarlo desde un dispositivo compatible, ofrece la posibilidad de llamar al número indicado.</p>
+
+                    <a href="tel:+34600000000">
+                        Llamanos
+                    </a>
+
+
+                </div>
+
+
+                <!-- 7. Enlace a una red social -->
+                <div class="tarjeta tarjeta_3">
+
+                    <h3>7. Enlace a una red social</h3>
+
+                    <p>Podemos incorporar enlaces a perfiles de redes sociales para facilitar que los visitantes encuentren nuestras cuentas.</p>
+
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        Visitar Instagram
+                    </a>
+
+                </div>
+
+
+                <!-- 8. Integracion de WhatsApp -->
+                <div class="tarjeta tarjeta_4">
+
+                    <h3>8. Integración de WhatsApp</h3>
+
+                    <p>WhatsApp permite añadir enlaces que abren una conversación directamente con un número de teléfono. También podemos incluir un mensaje predeterminado para facilitar el primer contacto. </p>
+
+                    <a href="https://wa.me/34600000000?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n."
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Contactar por WhatsApp
+                    </a>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+
+        <p>Proyecto de archivos multimedia en páginas web</p>
+
+        <p>Fernando de Dios Ortega Castro - 2026</p>
+
+        <a href="#inicio">Volver al inicio</a>
+
+    </footer>
+
+</body>
+
+</html>
+    

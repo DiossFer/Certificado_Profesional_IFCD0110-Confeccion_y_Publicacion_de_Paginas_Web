@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Actividad Formularios 9">
+
+    <meta name="description" content="Fernando de Dios Ortega Castro">
+
+    <title>Actividad_Formularios_9</title>
+
+    <link rel="stylesheet" href="Act_9.css">
+
+</head>
+
+<body>
+    <form id="Formulario_9" name="Formulario_9" method="post" action="#">
+        <h2>Formulario Actividad 9</h2><br>
+    
+        <fieldset>
+
+            <legend><strong>Indique</strong></legend><br>
+
+            <label for="nombre">Nombre<br><input type="text" name="nombre"></label><br><br>
+
+            <label for="apellidos">Apellidos<br><input type="text" name="apellidos"></label><br><br>
+
+            <label for="fecha">Elija una fecha:&nbsp;<br><input type="date" name="fecha"></label>
+
+            <br><br>
+
+            <textarea rows="5" cols="53" placeholder="Utilice este cuadro para escribir"></textarea>   
+
+            <br><br>
+
+            <select id="hardware" name="hardware">
+                <option value="monitor_led">Monitor LED</option>
+                <option value="ssd">SSD</option>
+            </select>
+
+            <br><br>
+
+            <div id="ide">
+                <input type="radio" name="ide" value="ideeclipse">Eclipse
+                <input type="radio" name="ide" value="idenetbeans">Netbeans
+                <input type="radio" name="ide" value="idenotepad">Notepad
+                <input type="radio" name="ide" value="ideidea">IDEA
+            </div>
+
+            <br>
+
+            <div id="asignatura">
+                <input type="checkbox" name="asignatura" id="asignaturamatematicas" value="asignaturamatematicas">&nbsp;Matemáticas <br>
+                <input type="checkbox" name="asignatura" id="asignaturahistoria" value="asignaturahistoria">&nbsp;Historia <br>
+                <input type="checkbox" name="asignatura" id="asignaturageografia" value="asignaturageografia">&nbsp;Geografía <br>
+                <input type="checkbox" name="asignatura" id="asignaturalengua" value="asignaturalengua">&nbsp;Lengua <br>
+
+            </div>
+
+            <br>
+
+            <label for="fichero">Elija un fichero:&nbsp;<br><input type="file" name="fichero" ></label>
+
+            <br><br>
+
+            <label for="color">Elija un color:&nbsp;&nbsp;&nbsp;&nbsp;<input type="color" name="color"></label>
+
+            <br>
+            
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+
+            <legend><strong>Preferencias</strong></legend><br>
+
+            <label for="color_2">Elija un color:&nbsp;&nbsp;&nbsp;&nbsp;<input type="color" name="color_2"></label>
+            <br><br>
+
+
+            
+            <select name="ciclo" id="ciclo_multiple" multiple="multiple" size="4">
+
+                <option value="asir">ASIR</option>
+                
+                <option value="dam">DAM</option>
+                <option value="daw">DAW</option>
+
+            </select>
+            <br><br>
+
+            <label for="fichero_2">Elija un fichero:&nbsp;<br><input type="file" name="fichero_2" ></label>
+            <br><br>
+            <textarea rows="5" cols="47" placeholder="Utilice este cuadro para escribir"></textarea>   
+            <br><br>
+            <label for="nombre_2">Nombre<br><input type="text" name="nombre_2"></label><br><br>
+
+            <label for="apellidos_2">Apellidos<br><input type="text" name="apellidos_2"></label><br><br>
+
+            
+            <label for="dni">DNI<br><input type="text" name="nombre"></label><br><br>
+
+            <label for="telefono">Telefono<br><input type="text" name="telefono"></label><br><br>
+
+            <div id="materias">
+                <input type="checkbox" name="asignatura" value="asignaturamalengua">Lengua 
+                <input type="checkbox" name="asignatura" value="asignaturamatematicas" >Matemáticas 
+                <input type="checkbox" name="asignatura" value="asignaturamatehistoria" >Historia 
+                <input type="checkbox" name="asignatura" value="asignaturageografia" >Geografía 
+            </div>
+            <br><br>
+            <label for="hora">Elija una hora:&nbsp;<br><input type="time" name="hora"></label>
+            <br>
+            
+        </fieldset>
+        
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Actividad Formularios 5">
+
+    <meta name="description" content="Fernando de Dios Ortega Castro">
+
+    <title>Actividad_Formularios_5</title>
+
+    <link rel="stylesheet" href="Act_5.css">
+
+</head>
+
+<body>
+    <form id="Formulario_5" name="Formulario_5" method="post" action="#">
+        <h2>Formulario Actividad 5</h2><br>
+    
+        <fieldset>
+
+            <legend><strong>Completar</strong></legend><br>
+
+            <label for="color">Elija un color:&nbsp;&nbsp;&nbsp;&nbsp;<input type="color" name="color"></label>
+
+            <br><br>
+
+            <label for="nombre">Nombre<br><input type="text" name="nombre"></label><br><br>
+
+            <label for="apellidos">Apellidos<br><input type="text" name="apellidos"></label><br><br>
+
+            <label for="telefono">Telefono<br><input type="text" name="telefono"></label><br><br>
+
+            <br>
+
+            <div id="materias">
+                <input type="checkbox" name="asignatura" value="asignaturamalengua">Lengua 
+                <input type="checkbox" name="asignatura" value="asignaturamatematicas" >Matemáticas 
+                <input type="checkbox" name="asignatura" value="asignaturamatehistoria" >Historia 
+                <input type="checkbox" name="asignatura" value="asignaturageografia" >Geografía 
+            </div>
+
+            <br>
+
+            <label for="fichero">Elija un fichero:&nbsp;<br><input type="file" name="fichero" ></label>
+
+            <br><br>
+
+            <textarea rows="4" cols="57" placeholder="Utilice este cuadro para escribir"></textarea>   
+
+            <br><br>
+
+            <div id="formato">
+                <input type="radio" name="formato" value="formatojpg">JPG
+                <input type="radio" name="formato" value="formatopng" >PNG
+            </div>
+
+            <br>
+
+        </fieldset>
+
+        <br><br>
+
+        <fieldset>
+
+
+            <legend><strong>Completar</strong></legend><br>
+
+            <label for="nombre_2">Nombre<br><input type="text" name="nombre_2"></label><br><br>
+
+            <label for="apellidos_2">Apellidos<br><input type="text" name="apellidos_2"></label><br><br>
+
+            <label for="direccion_2">Dirección<br><input type="text" name="direccion_2"></label><br><br>
+
+
+            <label for="fecha">Elija una fecha:&nbsp;<br><input type="date" name="fecha"></label>
+
+            <br><br>
+
+
+            <select name="conector" id="conector" multiple="multiple" size="4">
+
+                <option value="usb">USB</option>
+                <option value="paralelo">Paralelo</option>
+                <option value="ps2">PS2</option>
+
+            </select>
+
+            <br><br>
+            <label for="fichero_2">Elija un fichero:&nbsp;<br><input type="file" name="fichero_2" ></label>
+            <br><br>
+
+        </fieldset>
+        
+
+    </form>
+</body>
+
+</html>

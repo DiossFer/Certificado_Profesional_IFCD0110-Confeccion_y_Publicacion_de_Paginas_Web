@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Viviendas.css">
+</head>
+<body>
+    
+    <form action="ProcesarDatos">
+        <h1>Viviendas</h1>
+
+
+        <!-- Dirección -->
+        <label for="direccion">Dirección:</label>
+        <br>
+        <input type="text" id="direccion" name="dieccion" size="100" maxlength="100" required><br><br>
+        <!----------------------------->
+        
+
+        <!-- Tipo de vivienda -->
+        <label for="tipo">Tipo de vivienda:</label>
+        <br>
+        <select name="tipo" id="tipo">
+            <option value="piso">Piso</option>
+            <option value="chalet">Chalet</option>
+            <option value="casa">Casa</option>
+            <option value="mansion">Mansión</option>
+        </select><br><br>
+        <!----------------------------->
+
+
+        <!-- Zona de la vivienda -->
+        <label for="zona">Zona de la vivienda:</label>
+        <br>
+        <select name="zona" id="zona">
+            <option value="centro">Centro</option>
+            <option value="sur">Sur</option>
+            <option value="norte">Norte</option>
+            <option value="oeste">Oeste</option>
+            <option value="este">Este</option>
+        </select><br><br>
+        <!----------------------------->
+
+
+        <!-- Nº de habitaciones -->
+        <label>Nº de habitaciones:</label>
+        <br>
+
+        <input type="radio" id="habitaciones" name="habitaciones" value="1" checked>
+        <label for="habitaciones">1 habitaciones</label>
+        <br>
+
+        <input type="radio" id="habitaciones" name="habitaciones" value="2">
+        <label for="habitaciones">2 habitaciones</label>
+        <br>
+
+        <input type="radio" id="habitaciones" name="habitaciones" value="3">
+        <label for="habitaciones">3 habitaciones</label>
+        <br>
+
+        <input type="radio" id="habitaciones" name="habitaciones" value="4">
+        <label for="habitaciones">4 habitaciones</label>
+        <br>
+        <input type="radio" id="habitaciones" name="habitaciones" value="5">
+        <label for="habitaciones">5 o mas habitaciones</label>
+        <br>
+
+        <br>
+        <!----------------------------->
+
+        <!-- Precio -->
+        <label>Precio:</label>
+        <br>
+        <input type="number" id="precio" name="precio" step="0.01" min="0" max="999999" required>
+        <br>
+        <br>
+        <!----------------------------->
+
+
+
+        <!-- Tamaño -->
+        <label for="tamano">Tamaño:</label>
+        <br>
+        <input type="number" id="precio" name="tamano" step="0.01" min="0" max="999999" required>
+        <br>
+        <br>
+        <!----------------------------->
+
+        <!-- Extras -->
+        <label for="extras">Extras:</label>
+        <br>
+        <input type="checkbox" name="Extras[]" value="piscina">Piscina   
+        <input type="checkbox" name="Extras[]" value="jardin">Jardín   
+        <input type="checkbox" name="Extras[]" value="garaje">Garaje   
+        <br>
+        <br>
+        <!----------------------------->
+
+        <!-- Fecha -->
+        <label for="obtencion">Fecha de adquisición:</label>
+        <br>
+        <input type="date" id="obtencion" name="obtencion" required>
+
+        <br>
+        <br>
+        <!----------------------------->
+
+        <!-- Observaciones -->
+
+        <label for="observaciones">Observaciones:</label>
+        <br>
+        <textarea id="Observaciones" name="observaciones" rows="5" cols="80"></textarea>
+
+        <br>
+        <br>
+        <!----------------------------->
+
+        <!-- Boton -->
+
+        <input type="submit" name="enviar" value="Insertar">
+
+        <!----------------------------->
+    </form>
+
+</body>
+</html>

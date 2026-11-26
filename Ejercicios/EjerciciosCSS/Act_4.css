@@ -1,0 +1,47 @@
+#contenedor > div{
+    border: 1px black solid;
+
+    height: 4rem;
+    width: 100%;
+
+}
+
+.color-1{
+    background-color: #FF00FF;
+}
+
+.color-2{
+    background-color: #FF1AFF;
+}
+
+.color-3{
+    background-color: #FF33FF;
+}
+
+.color-4{
+    background-color: #FF4CFF;
+}
+
+.color-5{
+    background-color: #FF66FF;
+}
+
+.color-6{
+    background-color: #FF80FF;
+}
+
+.color-7{
+    background-color: #FF99FF;
+}
+
+.color-8{
+    background-color: #FFB2FF;
+}
+
+.color-9{
+    background-color: #FFCCFF;
+}
+
+.color-10{
+    background-color: #FFE6FF;
+}

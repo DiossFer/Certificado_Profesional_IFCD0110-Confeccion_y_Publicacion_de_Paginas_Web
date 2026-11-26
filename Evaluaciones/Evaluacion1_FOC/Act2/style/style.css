@@ -1,0 +1,55 @@
+/*
+ *  Hoja de estilos principal de la actividad 2 de la evaluacion 1
+ *  Estilos aplicados sobre el html ordenados por uso
+ *  Autor: Fernando de Dios Ortega Castro
+*/
+
+
+/**** Estilos generales ****/
+body{
+    background-color: rgb(204, 222, 230) ;
+    font-family: sans-serif;
+}
+/***************************/
+
+
+/**** Estilos de titulos ****/
+
+h1{
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(51, 158, 204);
+}
+
+h3{
+    background-color: rgb(128, 199, 230);
+    color: white;
+}
+
+/****************************/
+
+
+/**** Estilos para resaltar ****/
+
+code{
+    background-color: white;
+    width: 100%;
+}
+
+/*******************************/
+
+
+/**** Otros estilos ****/
+
+footer{
+    text-align: end;
+    font-size: small;
+}
+.bloqueDeCodigo{
+    background-color: white;
+    width: 100%;
+}
+
+/***********************/

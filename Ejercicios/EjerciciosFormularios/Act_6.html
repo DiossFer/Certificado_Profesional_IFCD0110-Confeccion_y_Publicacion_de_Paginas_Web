@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Actividad Formularios 6">
+
+    <meta name="description" content="Fernando de Dios Ortega Castro">
+
+    <title>Actividad_Formularios_6</title>
+
+    <link rel="stylesheet" href="Act_6.css">
+
+</head>
+
+<body>
+    <form id="Formulario_6" name="Formulario_6" method="post" action="#">
+        <h2>Formulario Actividad 6</h2><br>
+    
+        <fieldset>
+
+            <legend><strong>Preferencias</strong></legend><br>
+
+
+            <label for="fecha">Elija una fecha:&nbsp;<br><input type="date" name="fecha"></label>
+
+            <br><br>
+
+            <label for="hora">Elija una hora:&nbsp;<br><input type="time" name="hora"></label>
+
+            <br><br>
+
+            <label for="fichero">Elija un fichero:&nbsp;<br><input type="file" name="fichero" ></label>
+
+            <br><br>
+
+            <select name="lenguaje" id="lenguaje" multiple="multiple" size="4">
+
+                <option value="python">Python</option>
+                <option value="html">HTML</option>
+                <option value="visual">Visual Basic</option>
+                <option value="java">Java</option>
+
+            </select>
+
+            <br>
+
+            <label for="color">Elija un color:&nbsp;&nbsp;&nbsp;&nbsp;<input type="color" name="color"></label>
+
+            <br>
+
+            <div id="hardware">
+                <input type="checkbox" name="hardware" value="hardwaremonitor_led">Monitor LED <br>
+                <input type="checkbox" name="hardware" value="hardwaressd" >SSD  <br>
+            </div>
+
+            <br>
+
+            <textarea rows="5" cols="48" placeholder="Inserte aqui el texto"></textarea>   
+
+            <br>
+
+            <label for="instituto">Instituto&nbsp;&nbsp;<input type="text" name="instituto"></label><br><br>
+
+            <label for="estudios">Estudios elegidos&nbsp;&nbsp;<input type="text" name="estudios"></label><br><br>
+
+            <label for="nombre">Nombre&nbsp;&nbsp;<input type="text" name="nombre"></label><br><br>
+
+            <label for="apellidos">Apellidos&nbsp;&nbsp;<input type="text" name="apellidos"></label><br><br>
+
+            <label for="email">Email&nbsp;&nbsp;<input type="email" name="email"></label><br><br>
+
+            <div id="conector">
+                <input type="radio" name="conector" value="conectorusb">USB <br>
+                <input type="radio" name="conector" value="conectorparalelo" >Paralelo <br>
+                <input type="radio" name="conector" value="conectorps2" >PS2 <br>
+            </div>
+
+            <br><br>
+            
+        </fieldset>
+        
+
+    </form>
+</body>
+
+</html>

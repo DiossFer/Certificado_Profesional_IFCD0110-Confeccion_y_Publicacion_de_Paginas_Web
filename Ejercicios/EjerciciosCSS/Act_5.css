@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "NotoSans";
+  src: url("NotoSans-VariableFont_wdth,wght.ttf");
+}
+
+body{
+    background-color: #fafafa;
+    font-family: NotoSans;
+}
+
+#cuadro{
+    background-color: white;
+
+    width: 600px;
+    height: 400px;
+
+    border-radius: 10px;
+
+    border: solid black 1px;
+
+    padding: 30px 15px 20px;
+
+    margin: auto;
+    margin-top: 10%;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+h2{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p {
+  line-height: 1.5em;
+  font-size: 16px;
+}

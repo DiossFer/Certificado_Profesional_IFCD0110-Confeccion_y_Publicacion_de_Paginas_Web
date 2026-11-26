@@ -1,0 +1,24 @@
+table{
+    border: black 1px solid;
+}
+
+td, tr, th{
+    border: black 1px solid;
+}
+
+.celdaAbiertaDerecha{
+    border-left: black dashed 1px;
+    border-right: black dashed 0px;
+    border-top: black dashed 1px;
+    border-bottom: black dashed 1px;
+    margin-right: 0;
+    padding-right: 0;
+}
+.celdaAbiertaIzquierda{
+    border-left: black dashed 0px;
+    border-right: black dashed 1px;
+    border-top: black dashed 1px;
+    border-bottom: black dashed 1px;
+    margin-left: 0;
+    padding-left: 0;
+}

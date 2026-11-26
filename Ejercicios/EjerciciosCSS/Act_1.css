@@ -1,0 +1,28 @@
+.primero{ /* Clase "primero" */
+    background-color: aqua;
+}
+p.primero{ /* La etiqueta p que tenga de clase "primero" */
+    background-color: blue;
+}
+section.primero{ /* La etiqueta section que tenga de clase "primero" */
+    background-color: blueviolet;
+}
+
+#paco{
+    background-color: brown;
+}
+p#moco{
+    background-color: green;
+}
+.primero span{
+    background-color: red;
+}
+.primero > span{
+    background-color: aquamarine;
+}
+span .primero{
+    background-color: darkcyan;
+}
+.primero.parding{
+    background-color: darkorange;
+}

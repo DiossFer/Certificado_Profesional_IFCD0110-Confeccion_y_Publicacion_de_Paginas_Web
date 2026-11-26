@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Actividad Formularios 2">
+
+    <meta name="description" content="Fernando de Dios Ortega Castro">
+
+    <title>Actividad_Formularios_2</title>
+
+    <link rel="stylesheet" href="Act_2.css">
+
+</head>
+
+<body>
+    <form id="Formulario_2" name="Formulario_2" method="post" action="#">
+        <h2>Formulario Actividad 2</h2><br>
+    
+        <fieldset>
+
+            <legend><strong>Indique sus preferencias por favor</strong></legend><br>
+
+            <label for="fecha">Elija una fecha:&nbsp;<br><input type="date" name="fecha"></label>
+
+            <br><br>
+
+            <label for="fichero">Elija un fichero:&nbsp;<br><input type="file" name="fichero" ></label>
+
+            <br><br>
+
+            <div id="procesador">
+                <input type="radio" name="procesador" value="procesadoramd">AMD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="procesador" value="procesadorintel_i5" >Intel i5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="procesador" value="procesadorintel_i7" >Intel i7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+
+            <br>
+
+
+        </fieldset>
+
+        <br><br>
+        
+        <fieldset>
+            <legend><strong>Indique sus preferencias por favor</strong></legend><br>
+
+            <div id="asignatura">
+                <input type="radio" name="asignatura" value="asignaturamatematicas">Matematicas&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="asignatura" value="asignaturahistoria" >Historia&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="asignatura" value="asignaturageografia" >Geografia&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="asignatura" value="asignaturalengua" >Lengua&nbsp;&nbsp;&nbsp;
+            </div>
+
+            <br><br>
+
+            <label for="nombre">Nombre<br><input type="text" name="nombre"></label><br><br>
+
+            <label for="apellidos">Apellidos<br><input type="text" name="apellidos"></label><br><br>
+
+            <label for="direccion">Dirección<br><input type="text" name="direccion"></label><br><br>
+
+            <label for="color">Elija un color:&nbsp;&nbsp;&nbsp;&nbsp;<input type="color" name="color"></label>
+
+            <br><br>
+
+            <textarea rows="6" cols="59" placeholder="Utilice este cuadro para escribir"></textarea>   
+
+            <br><br>
+
+            <label for="fecha_2">Elija una fecha:&nbsp;<br><input type="date" name="fecha_2"></label>
+
+            <br><br>
+
+            <select id="idioma" name="idioma">
+                <option value="ingles">Inglés</option>
+                <option value="aleman">Aleman</option>
+                <option value="frances">Francés</option>
+            </select>
+            
+            <br><br>
+
+            <label for="hora">Elija una hora:&nbsp;<br><input type="time" name="hora"></label>
+            
+            <br><br>
+
+            <label for="fichero_2">Elija un fichero:&nbsp;<br><input type="file" name="fichero_2" ></label>
+            
+            <br><br>
+
+            <div id="sexo">
+
+                <input type="checkbox" name="sexo" id="sexo_1" value="sexohombre">&nbsp;Hombre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <input type="checkbox" name="sexo" id="sexo_2" value="sexomujer">&nbsp;Mujer
+
+            </div>
+
+
+            <br>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
