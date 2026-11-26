@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padre{
+    margin: 30px;
+
+    display: flex;
+
+    
+    gap: 150px;
+
+}
+.contenedor{
+    width: 325px;
+    height: 225px;
+    border: 1px solid black;
+    padding: 20px;
+    
+    /* Usando grid*/
+    /*
+    display: grid; 
+    grid-template-columns: repeat(3, 75px);
+    grid-template-rows: repeat(2, 75px);
+    gap: 25px;
+    */
+
+    /* Usando flex*/
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 25px;
+
+}
+
+.amarillo{
+    background-color: #ffff00;
+}
+
+.gris{
+    background-color: #ccc;
+}
+
+.caja{
+    width: 75px;
+    height: 75px;
+
+    background-color: #bb00bb;
+    border: 1px solid black;
+}
+
+.ocultar{
+    visibility: hidden;
+}
